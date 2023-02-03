@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <BMIinputs setUserCalc={setUserCalc} />
-      <UserList userCalc={userCalc} />
+      <UserList userCalc={userCalc} setUserCalc={setUserCalc} />
       <StatusBar style="auto" />
     </View>
   );
